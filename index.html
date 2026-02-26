@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arotech · Digital Bridge</title>
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dark-mode">
+    <!-- Theme toggle (optional) -->
+    <div class="theme-toggle" id="themeToggle">
+        <i class="fas fa-moon"></i>
+    </div>
+
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <a href="#" class="logo">AROTECH</a>
+            <button class="menu-btn" id="menuBtn"><i class="fas fa-bars"></i></button>
+            <div class="nav-links" id="navLinks">
+                <a href="#home" class="active">Home</a>
+                <a href="#metrics">Metrics</a>
+                <a href="#ceo">Maestro</a>
+                <a href="#testimonials">Proof</a>
+                <a href="#vault">Vault</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HOME / HERO SLIDER -->
+        <section id="home" class="section fade-section">
+            <div class="slider">
+                <div class="slide active" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1547658719-6b3b9e6f0b0b?w=1350');">
+                    <div class="slide-content">
+                        <h2>Web Development</h2>
+                        <p>Full‑stack solutions that scale</p>
+                        <a href="#services" class="btn">Explore</a>
+                    </div>
+                </div>
+                <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=1350');">
+                    <div class="slide-content">
+                        <h2>Graphic Design</h2>
+                        <p>Brand identity & 3D animations</p>
+                        <a href="#services" class="btn">Explore</a>
+                    </div>
+                </div>
+                <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=1350');">
+                    <div class="slide-content">
+                        <h2>Account Sales & Recovery</h2>
+                        <p>Secure your digital identity</p>
+                        <a href="#services" class="btn">Explore</a>
+                    </div>
+                </div>
+                <div class="slider-nav"></div>
+            </div>
+        </section>
+
+        <!-- METRICS ALPHA (Counters & Live Uptime) -->
+        <section id="metrics" class="section fade-section">
+            <h2 class="section-title">Metrics Alpha</h2>
+            <div class="metrics-grid">
+                <div class="metric-card glass-card">
+                    <i class="fas fa-project-diagram"></i>
+                    <span class="metric-number" data-target="500">0</span><span>+</span>
+                    <p>Projects Executed</p>
+                </div>
+                <div class="metric-card glass-card">
+                    <i class="fas fa-user-shield"></i>
+                    <span class="metric-number" data-target="150">0</span><span>+</span>
+                    <p>Accounts Recovered</p>
+                </div>
+                <div class="metric-card glass-card">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <span class="metric-number" data-target="200">0</span><span>+</span>
+                    <p>Students Coached</p>
+                </div>
+                <div class="metric-card glass-card">
+                    <i class="fas fa-cube"></i>
+                    <span class="metric-number" data-target="300">0</span><span>+</span>
+                    <p>Digital Assets Built</p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- THE MAESTRO (CEO) -->
+        <section id="ceo" class="section fade-section">
+            <div class="ceo-container glass-card">
+                <div class="ceo-avatar">
+                    <i class="fas fa-user-tie"></i> <!-- Replace with actual image if desired -->
+                </div>
+                <div class="ceo-message">
+                    <h2>The Digital Maestro</h2>
+                    <p class="ceo-title">Expert Phone Engineer | Full‑Stack Dev | Online Mentor</p>
+                    <p>“I started Arotech to bridge the gap between complex technology and real‑world business needs. From motherboard repairs to building global platforms, my mission is to empower others through tech.”</p>
+                    <div class="ceo-signature">
+                        <i class="fas fa-eagle"></i> <!-- eagle watermark -->
+                    </div>
+                    <a href="https://wa.me/2348000000000" target="_blank" class="btn btn-green">TALK_TO_THE_MAESTRO</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SOCIAL PROOF (Testimonials) -->
+        <section id="testimonials" class="section fade-section">
+            <h2 class="section-title">Client Voices</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial-card glass-card active">
+                    <div class="rating">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">“Arotech recovered my hacked Instagram account within 24 hours. Professional and transparent.”</p>
+                    <p class="client-name">– James O. (Account Recovery)</p>
+                </div>
+                <div class="testimonial-card glass-card">
+                    <div class="rating">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">“The 3D animated ad they created for our product doubled our conversion rate. Pixar quality!”</p>
+                    <p class="client-name">– Sarah K. (AD_GALLERY)</p>
+                </div>
+                <div class="testimonial-card glass-card">
+                    <div class="rating">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">“Their SEO service brought us to page 1 in under 3 months. Highly recommend.”</p>
+                    <p class="client-name">– Michael T. (Growth)</p>
+                </div>
+                <!-- Add more as needed -->
+                <div class="slider-controls">
+                    <button class="prev"><i class="fas fa-chevron-left"></i></button>
+                    <button class="next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- THE VAULT (Social Portfolio) -->
+        <section id="vault" class="section fade-section">
+            <h2 class="section-title">The Vault</h2>
+            <div class="vault-grid">
+                <div class="vault-card glass-card" onclick="window.open('https://instagram.com/arotech', '_blank')">
+                    <img src="https://picsum.photos/400/300?random=1" alt="Hardware Lab">
+                    <h4><i class="fab fa-instagram"></i> HARDWARE_LAB</h4>
+                    <p>Motherboard repairs & diagnostics</p>
+                </div>
+                <div class="vault-card glass-card" onclick="window.open('https://youtube.com/@arotech', '_blank')">
+                    <img src="https://picsum.photos/400/500?random=2" alt="App Showcase">
+                    <h4><i class="fab fa-youtube"></i> APP_SHOWCASE</h4>
+                    <p>Mobile app demos</p>
+                </div>
+                <div class="vault-card glass-card" onclick="window.open('https://tiktok.com/@arotech', '_blank')">
+                    <img src="https://picsum.photos/400/400?random=3" alt="Ad Gallery">
+                    <h4><i class="fab fa-tiktok"></i> AD_GALLERY</h4>
+                    <p>3D animated ads</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FULL SERVICE LIST (Arsenal) -->
+        <section id="services" class="section fade-section">
+            <h2 class="section-title">Arotech Arsenal</h2>
+            <div class="services-grid">
+                <div class="service-card glass-card">
+                    <i class="fas fa-microchip"></i>
+                    <h3>Phone Engineering</h3>
+                    <p>Hardware, motherboard, diagnostics</p>
+                </div>
+                <div class="service-card glass-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Full‑Stack Web Dev</h3>
+                </div>
+                <div class="service-card glass-card">
+                    <i class="fab fa-android"></i>
+                    <h3>Android App Dev</h3>
+                </div>
+                <div class="service-card glass-card">
+                    <i class="fas fa-search"></i>
+                    <h3>SEO Specialist</h3>
+                </div>
+                <div class="service-card glass-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Social Media Boosting</h3>
+                </div>
+                <div class="service-card glass-card">
+                    <i class="fas fa-film"></i>
+                    <h3>3D Animated Ads</h3>
+                </div>
+                <div class="service-card glass-card">
+                    <i class="fas fa-user-lock"></i>
+                    <h3>Account Recovery</h3>
+                </div>
+                <div class="service-card glass-card">
+                    <i class="fas fa-id-card"></i>
+                    <h3>NIN Services</h3>
+                </div>
+                <div class="service-card glass-card">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <h3>Online Coaching</h3>
+                </div>
+                <div class="service-card glass-card">
+                    <i class="fas fa-wifi"></i>
+                    <h3>Data & Subscriptions</h3>
+                </div>
+                <div class="service-card glass-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Brand Identity</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- SOCIAL FOOTER (Connection) -->
+        <footer id="contact" class="section fade-section">
+            <div class="social-inventory">
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-tiktok"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-x-twitter"></i></a>
+                <a href="https://wa.me/+2347047887361" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-reddit"></i></a>
+                <a href="https://www.linkedin.com/in/arotech-aab6713b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <a href="#" class="btn btn-green pulse">SECURE_YOUR_DIGITAL_FUTURE</a>
+            <p class="copyright">© 2025 Arotech – Your Bridge to the Digital World</p>
+        </footer>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
